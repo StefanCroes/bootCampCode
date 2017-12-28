@@ -1,0 +1,17 @@
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Bootcamp_CS.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Bootcamp_CS.pdb
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\WebDriver.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\WebDriver.Support.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\WebDriver.xml
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\bin\Debug\WebDriver.Support.xml
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\obj\Debug\Bootcamp_CS.csprojResolveAssemblyReference.cache
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\obj\Debug\Bootcamp_CS.csproj.CoreCompileInputs.cache
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\obj\Debug\Bootcamp_CS.dll
+C:\JavaProjects\Bootcamp\Bootcamp_CS\Bootcamp_CS\Bootcamp_CS\obj\Debug\Bootcamp_CS.pdb
