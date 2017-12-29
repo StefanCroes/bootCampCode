@@ -28,7 +28,7 @@ public class SignOutTest {
         driver.findElement(By.className("logout")).click();
 
         //Twee verschillende assertions om te controleren dat user is uitgelogd.
-        
+
         WebElement SignInText = driver.findElement(By.className("login"));
         Assertions.assertThat(SignInText.getText()).as("The displayed text is not correct").isEqualTo("Sign in");
         Assert.assertTrue(driver.findElement(By.className("login")).isDisplayed());
