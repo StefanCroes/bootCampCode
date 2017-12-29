@@ -1,5 +1,6 @@
 package chapterSix;
 
+import browser.BrowserFactory;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,8 +13,10 @@ public class TestShopScenario {
 
     @BeforeMethod
     public void SetUp() {
-        ChromeDriverManager.getInstance().setup();
-        driver = new ChromeDriver();
+                driver = BrowserFactory.getDriver("firefox");
+
+        //ChromeDriverManager.getInstance().setup();
+        //driver = new ChromeDriver();
 
         //open the website
         driver.get("https://techblog.polteq.com/testshop/index.php");
