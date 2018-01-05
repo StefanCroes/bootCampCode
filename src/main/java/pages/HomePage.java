@@ -12,6 +12,9 @@ public class HomePage {
     @FindBy(css = "[title='contact']")
     private WebElement contactLink;
 
+    @FindBy(className = "login")
+    private WebElement toLogin;
+
     public HomePage(WebDriver driver) {
         this.driver = driver;
 
@@ -21,6 +24,11 @@ public class HomePage {
 
     public void clickContactUs() {
         contactLink.click();
+
+    }
+
+    public void toLogIn() {
+        toLogin.click();
 
     }
 

@@ -12,20 +12,24 @@ public class ContactUsPage {
     private WebDriver driver;
 
 
-    @FindBy(id="id_contact")
+    @FindBy(id = "id_contact")
     private WebElement subjectHeading;
 
-    @FindBy(id="email")
+    @FindBy(id = "email")
     private WebElement emailField;
 
-    @FindBy(id="id_order")
+    @FindBy(id = "id_order")
     private WebElement orderField;
 
-    @FindBy(id="message")
+    @FindBy(id = "message")
     private WebElement messageField;
 
-    @FindBy(id="submitMessage")
+    @FindBy(id = "submitMessage")
     private WebElement sendButton;
+
+    @FindBy(className = "alert")
+    private WebElement errorMessage;
+
 
     public ContactUsPage(WebDriver driver) {
         this.driver = driver;
@@ -35,7 +39,7 @@ public class ContactUsPage {
 
     }
 
-    public void submitForm(String header, String email, String order, String message ){
+    public void submitForm(String header, String email, String order, String message) {
         Select dropdown = new Select(subjectHeading);
         dropdown.selectByVisibleText(header);
         emailField.sendKeys(email);
@@ -44,4 +48,16 @@ public class ContactUsPage {
         sendButton.click();
 
     }
+
+        public void clearForm(){
+        emailField.clear();
+        orderField.clear();
+        messageField.clear();
+    }
+
+    public String getMessage(){
+        return errorMessage.getText();
+
+    }
 }
+

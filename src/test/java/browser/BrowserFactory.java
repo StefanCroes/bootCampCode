@@ -4,7 +4,9 @@ import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class BrowserFactory {
 
@@ -13,23 +15,29 @@ public class BrowserFactory {
     public static WebDriver getDriver (String browser){
         switch(browser.toLowerCase()){
             case "firefox":
-              getFirefoxDriver();
-              break;
-            case "chrome":
+              return getFirefoxDriver();
+
+            case "chrome": default:
                 ChromeDriverManager.getInstance().setup();
-                driver = new ChromeDriver();
-                break;
-            default:
-                driver = new ChromeDriver();
-                break;
+                return ChromeDriver();
+
+
         }
-        return driver;
+
 
     }
 
     private static WebDriver getFirefoxDriver() {
+        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         FirefoxDriverManager.getInstance().setup();
-        return driver = new FirefoxDriver();
+        return driver = new FirefoxDriver(capabilities);
     }
 
+    private static WebDriver ChromeDriver() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
+        ChromeDriverManager.getInstance().setup();
+        return driver = new ChromeDriver(options);
+
+    }
 }
